@@ -1,0 +1,19 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.hasTag("contact")
+        - file.folder == "Contacts"
+    order:
+      - file.name
+      - date_of_birth
+      - phone_number
+      - telegram
+      - instagram
+    columnSize:
+      file.name: 370
+      note.phone_number: 161
+      note.telegram: 99

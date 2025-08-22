@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"b5464b4b6fef5e2a","type":"text","text":"Входящие:\n- создается заметка в произвольной форме \n- помещается в папку \"входящие\"","x":-450,"y":-760,"width":550,"height":160},
+		{"id":"69d97d1decba6ef6","type":"text","text":"Если это действие и его выполнение или большей его части занимает меньше 2 минут, то выполнить сейчас без создания задачи.\nУдалить заметку inbox.","x":-860,"y":-760,"width":360,"height":160,"color":"3"},
+		{"id":"7ad92525a889182d","type":"text","text":"Перенести в \"архив\" в соответствии с существующими списками или создать новый список, отредактировать ссылки, если необходимо","x":-860,"y":-581,"width":320,"height":161,"color":"5"},
+		{"id":"12934a8ab38d6444","type":"text","text":"Создается новый проект","x":-320,"y":-400,"width":140,"height":120,"color":"1"},
+		{"id":"8673f039d3af0a46","type":"text","text":"Создается одноразовая новая задача в проекте Ad Hoc","x":80,"y":-400,"width":180,"height":122,"color":"1"},
+		{"id":"a5eb420ded99ddde","type":"text","text":"Создается новая задача и помещается в проект","x":-140,"y":-400,"width":200,"height":122,"color":"1"},
+		{"id":"51c24e12725f3339","type":"text","text":"Задача выполнена или отменена","x":-320,"y":-240,"width":140,"height":129,"color":"6"},
+		{"id":"6b29cfe287dd0660","type":"text","text":"Удалить задачу и/или проект, если не нужны","x":-860,"y":-240,"width":185,"height":129,"color":"5"}
+	],
+	"edges":[
+		{"id":"cef7cad2b29504a5","fromNode":"b5464b4b6fef5e2a","fromSide":"bottom","toNode":"8673f039d3af0a46","toSide":"top"},
+		{"id":"5f8da75c75e0491f","fromNode":"b5464b4b6fef5e2a","fromSide":"bottom","toNode":"12934a8ab38d6444","toSide":"top"},
+		{"id":"8684aff21975e341","fromNode":"a5eb420ded99ddde","fromSide":"bottom","toNode":"51c24e12725f3339","toSide":"right"},
+		{"id":"16411872d59e77c6","fromNode":"b5464b4b6fef5e2a","fromSide":"bottom","toNode":"a5eb420ded99ddde","toSide":"top"},
+		{"id":"1bf61a962b0e5434","fromNode":"8673f039d3af0a46","fromSide":"bottom","toNode":"51c24e12725f3339","toSide":"right"},
+		{"id":"fde204715d24bf84","fromNode":"12934a8ab38d6444","fromSide":"right","toNode":"a5eb420ded99ddde","toSide":"left"},
+		{"id":"fe3bae2d99740f42","fromNode":"51c24e12725f3339","fromSide":"left","toNode":"6b29cfe287dd0660","toSide":"right"},
+		{"id":"2274216ca60d83e0","fromNode":"51c24e12725f3339","fromSide":"left","toNode":"7ad92525a889182d","toSide":"right"},
+		{"id":"a134b8487cd1db72","fromNode":"69d97d1decba6ef6","fromSide":"right","toNode":"b5464b4b6fef5e2a","toSide":"left"},
+		{"id":"bab249fdf8394f59","fromNode":"b5464b4b6fef5e2a","fromSide":"bottom","toNode":"7ad92525a889182d","toSide":"right"}
+	]
+}

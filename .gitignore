@@ -2,6 +2,7 @@
 !.obsidian/plugins/
 !.obsidian/plugins/*/
 !.obsidian/plugins/**/manifest.json
+!.obsidian/plugins/**/data.json
 !.obsidian/plugins/**/styles.css
 !.obsidian/core-plugins.json
 !.obsidian/hotkeys.json

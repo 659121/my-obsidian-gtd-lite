@@ -1,0 +1,10 @@
+{
+  "cssTheme": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "my-callouts"
+  ],
+  "accentColor": ""
+}

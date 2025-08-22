@@ -1,0 +1,76 @@
+.callout:not([data-callout="multi-column"],[data-callout="blank"]) {
+  --callout-icon-size: 1.2em;
+  background: linear-gradient(
+      135deg,
+      rgba(var(--callout-color), 0.25),
+      rgba(var(--callout-color), 0.15)
+  ) !important;
+  border: none !important;
+  border-radius: 16px !important;
+  padding: 15px !important;
+  margin: 1rem 0 !important;
+  opacity: 0.98 !important;
+  filter: saturate(1.05) contrast(1.2);
+  box-shadow: 
+      0 5px 20px rgba(var(--callout-color), 0.2),
+      inset 0 1px 0 rgba(255,255,255,0.1) !important;
+}
+
+/* Эффекты при наведении */
+.callout:hover:not([data-callout="multi-column"],[data-callout="blank"]) {
+    filter: saturate(1.1) contrast(1.3);
+    box-shadow: 
+        0 12px 40px rgba(var(--callout-color), 0.2),
+        inset 0 1px 0 rgba(255,255,255,0.15) !important;
+}
+
+/* Красивые заголовки */
+.callout-title:not([data-callout="multi-column"],[data-callout="blank"]) {
+    font-weight: 800 !important;
+    font-size: 1.3em !important;
+    color: rgb(var(--callout-color)) !important;
+    text-shadow: 0 2px 4px rgba(var(--callout-color), 0.2);
+    margin-bottom: 12px !important;
+}
+
+/* Контент */
+.callout-content:not([data-callout="multi-column"],[data-callout="blank"]) {
+    background: transparent !important;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.callout[data-callout="inbox"] {
+  --callout-color: 30, 144, 255;
+  --callout-icon: lucide-inbox;
+}
+
+.callout[data-callout="task-list"] {
+  --callout-color: 40, 167, 69;
+  --callout-icon: lucide-list-todo;
+}
+
+.callout[data-callout="project-list"] {
+  --callout-color: 153, 50, 204;
+  --callout-icon: lucide-briefcase;
+}
+
+.callout[data-callout="hub"] {
+  --callout-color: 255, 165, 0;
+  --callout-icon: lucide-network;
+}
+
+.callout[data-callout="shopping"] {
+  --callout-color: 46, 204, 113;
+  --callout-icon: lucide-shopping-cart;
+}
+
+.callout[data-callout="birthdays"] {
+    --callout-color: 255, 100, 150;
+    --callout-icon: lucide-cake;
+}
+
+.callout[data-callout="trackers"] {
+  --callout-color: 176, 196, 222;
+  --callout-icon: lucide-chart-line;
+}

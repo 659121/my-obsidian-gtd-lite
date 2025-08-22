@@ -1,0 +1,12 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "date": "text",
+    "Gym": "checkbox",
+    "weight": "number",
+    "kcal": "number",
+    "date_of_birth": "date"
+  }
+}

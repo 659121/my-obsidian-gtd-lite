@@ -1,13 +1,6 @@
-*.md
-!Templates/*.md
-!README.md
-!Main/Home.md
-!Main/Reference.md
-!Main/Tasks lifetime.canvas
-!Main/Someday, maybe.md
-!TasksAndProjects/_Ad_Hoc.md
-
-.obsidian/
+.obsidian/**
+!.obsidian/plugins/
+!.obsidian/plugins/*/
 !.obsidian/plugins/**/manifest.json
 !.obsidian/plugins/**/styles.css
 !.obsidian/core-plugins.json
@@ -23,3 +16,12 @@
 
 !.obsidian/snippets/
 !.obsidian/snippets/*
+
+*.md
+!Templates/*.md
+!README.md
+!Main/Home.md
+!Main/Reference.md
+!Main/Tasks lifetime.canvas
+!Main/Someday, maybe.md
+!TasksAndProjects/_Ad_Hoc.md

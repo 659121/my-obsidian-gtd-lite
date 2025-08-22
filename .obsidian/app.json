@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "propertiesInDocument": "visible",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "attachmentFolderPath": "./attachments",
+  "userIgnoreFilters": [
+    "Templates/"
+  ]
+}

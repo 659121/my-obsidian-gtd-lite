@@ -1,0 +1,80 @@
+{
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageDown"
+    }
+  ],
+  "app:open-help": [],
+  "workspace:edit-file-title": [],
+  "templater-obsidian:create-Templates/Inbox_Note_template.md": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "templater-obsidian:create-Templates/Task_template.md": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "templater-obsidian:create-Templates/Project_template.md": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "quickadd:choice:2ed29f45-f9b6-47d9-85b6-5a975787e366": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "quickadd:choice:3b281b23-67b2-4cfe-a494-57dbfd23565a": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "quickadd:choice:93104ded-e685-4b26-acc7-5186f9a30bd9": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Delete"
+    }
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ]
+}
